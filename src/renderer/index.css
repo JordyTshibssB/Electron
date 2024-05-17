@@ -1,0 +1,24 @@
+@import './src/components/ui/atoms/chip/chip.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    --moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: theme(spacing.1);
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
